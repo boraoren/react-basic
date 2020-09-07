@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name="Efe" 
+         message="Merhaba Dunyali"/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
